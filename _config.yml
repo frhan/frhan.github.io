@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Farhan
+tagline:          'software developer'
+description:      'Software Engineer'
+url:              
+baseurl:          /
+archiveurl:       /archive
+
+author:
+  name:           'Farhan Faruque'
+  url:            https://twitter.com/farhan_faruque
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/farhan-faruque
