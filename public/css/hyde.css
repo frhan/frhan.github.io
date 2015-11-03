@@ -258,27 +258,26 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-.footer ul {
-	overflow: auto;
+
+#footer ul {
+  overflow: auto;
 }
 
-.footer ul li {
-	list-style-type: none;
-	float: left;
+#footer li {
+  list-style-type: none;
+  float: left;
 }
 
-.footer ul li a i {
-	background: #205D7A;
-	color: #fff;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	font-size: 25px;
-	text-align: center;
-	margin-right: 10px;
-	padding-top: 15%;
-}
+ul#footer li a i {
+  width: 40px;
+  height: 40px;
 
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 10%;
+  
+}
 
 
 .icons {
