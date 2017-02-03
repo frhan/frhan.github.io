@@ -7,7 +7,7 @@ Last few days, I am looking into the go programming language.It seems like to me
 
 here is the code --
 
-```
+{% highlight go %}
 
 package main
 import "fmt"
@@ -36,4 +36,4 @@ func main() {
   arry := [] int{1,2,3,4,5}
   fmt.Println(BinarySearch(arry,4))
 }
-```
+{% highlight ruby %}
