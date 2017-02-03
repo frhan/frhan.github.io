@@ -13,16 +13,21 @@ package main
 import "fmt"
 
 func BinarySearch(arr [] int, x int) bool{
+  
   var lowerBound int = 0
   var higherBound int = len(arr) - 1
+
   for lowerBound <= higherBound {
     var midPoint = lowerBound + (higherBound - lowerBound) /2
+    
     if arr[midPoint] < x {
       lowerBound = midPoint + 1
     }
+    
     if arr[midPoint] > x {
       higherBound = midPoint - 1
     }
+    
     if arr[midPoint] == x {
       return true
     }
