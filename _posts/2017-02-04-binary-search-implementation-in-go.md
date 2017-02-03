@@ -36,4 +36,4 @@ func main() {
   arry := [] int{1,2,3,4,5}
   fmt.Println(BinarySearch(arry,4))
 }
-{% highlight ruby %}
+{% highlight %}
