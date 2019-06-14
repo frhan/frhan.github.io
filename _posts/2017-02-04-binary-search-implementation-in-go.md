@@ -5,8 +5,8 @@ categories: [go,data-structure]
 description: Implementation of Binary Search Algorithm in go programming language
 keywords: development,go,data-structure
 ---
-
-Last few days, I am looking into the go programming language.It seems like to me the C programing language with less complexity.As a very beginner of the language, I tried to implement the basic binary search algorithm in go.
+### Last few days, I am looking into the go programming language.
+It seems like to me the C programing language with less complexity.As a very beginner of the language, I tried to implement the basic binary search algorithm in go.
 
 here is the code --
 
