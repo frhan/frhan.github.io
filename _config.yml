@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: /
+url: frhan.github.io
 date_format: "ordinal"
 title: Farhan Faruque
 subtitle: "Software Developer"
