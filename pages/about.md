@@ -9,7 +9,7 @@ permalink: /about/
 ---
 ## Farhan Faruque..Full stack Software Engineer
 
-## 联系
+## Contact
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
