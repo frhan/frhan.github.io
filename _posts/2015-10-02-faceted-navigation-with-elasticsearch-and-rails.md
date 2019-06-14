@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Faceted navigation with Elasticsearch and Rails
-categories: [rails,elasticsearch]
+categories: [Rails,Elasticsearch]
 description: create sample project which will search post and facet location and categories
-keywords: rails,elasticsearch
+keywords: Rails,Elasticsearch
 ---
 
 ### In this article I am going to create sample project which will search post and facet location and categories.

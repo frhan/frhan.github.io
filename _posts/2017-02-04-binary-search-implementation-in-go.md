@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Implementation of Binary Search Algorithm in go programming language
-categories: [go,data-structure]
+categories: [Go,Data-Structure]
 description: Implementation of Binary Search Algorithm in go programming language
-keywords: development,go,data-structure
+keywords: Development,Go,Data-Structure
 ---
 
 ### Last few days, I am looking into the go programming language.
