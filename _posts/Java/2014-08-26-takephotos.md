@@ -2,8 +2,8 @@
 layout: post
 title: Java 
 categories: Java
-description: 历次出游摄影的一些失败的点。
-keywords: 摄影, 教训
+description:
+keywords: Java
 ---
 
 ### 2014 年 8 月 杭州

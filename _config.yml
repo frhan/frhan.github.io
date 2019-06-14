@@ -33,11 +33,6 @@ navs:
   -
     href: /categories/
     label: Categories
-
-#   -
-#     href: /archives/
-#     label: 归档
-
   -
     href: /wiki/
     label: Wiki
@@ -97,8 +92,8 @@ gitment:
     owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: dc9dd34d27c972b3f0fa
+        client_secret: dde58487dc542fce0935fa443f7f81a638d1981c
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: mzlogin
