@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Farhan Faruque
-  tagline: Developer. Programmer
+  tagline: Learner. Developer. Father
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
@@ -21,7 +21,7 @@ plainwhite:
   social_links:
     twitter: farhan_faruque
     github:  frhan
-    #linkedIn: in/thelehhman
+    linkedIn: in/farfaraway
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
