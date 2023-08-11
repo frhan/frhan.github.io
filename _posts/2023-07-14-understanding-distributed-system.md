@@ -38,5 +38,5 @@ TCP uses a three-way handshake to create a new connection:
 3. The sender increments both sequence numbers and replies with an ACK segment and the first bytes of application data.
 
 
-![Alt text](https://github.com/frhan/frhan.github.io/blob/master/assets/screenshot/uds/uds-1.png "a title")
+![Alt text](https://github.com/frhan/frhan.github.io/blob/master/assets/screenshot/uds/uds-1.png?raw=true "a title")
 
