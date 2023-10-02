@@ -78,3 +78,19 @@ Encryption guarantees that the data transmitted between a client and a server is
 ### 3.4 Handshake
 ![Alt text](https://github.com/frhan/frhan.github.io/blob/master/assets/screenshot/uds/uds-2.png?raw=true "a title")
 
+* The handshake typically requires 2 round trips with TLS 1.2 and just one with TLS 1.3
+
+## Chapter 4 : Discovery
+the _Domain Name System_ (DNS) — a distributed, hierarchical, and eventually consistent key-value store.
+
+* The DNS resolver is typically a DNS server hosted by your Internet Service Provider.
+* DNS uses UDP to serve DNS queries as it’s lean and has a low overhead.
+
+![Alt text](https://github.com/frhan/frhan.github.io/blob/master/assets/screenshot/uds/uds-3.png?raw=true "a title")
+
+* the industry is pushing slowly towards running DNS on top of TLS.
+* the browser, operating system, and DNS resolver all use caches internally.
+* Every DNS record has a time to live (TTL) that informs the cache how long the entry is valid
+* DNS can easily become a single point of failure if your DNS name server is down and the clients can’t find the IP address of your service, they won’t have a way to connect it. This can lead to massive outages
+
+## Chapter 5: APIs
