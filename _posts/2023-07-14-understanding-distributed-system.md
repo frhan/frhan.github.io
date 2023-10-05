@@ -5,9 +5,9 @@ date: 2023-07-17 21:03:36 +0530
 categories: distributed-system
 ---
 
-This post is the summary of the book called `Understanding Distributed system` by Roberto Vitillo.
+# This post is the summary of the book called `Understanding Distributed system` by Roberto Vitillo.
 
-## Chapter 1: Introduction
+## Chapter 1: Introduction 
 
 <p>Fundamental  challenges of distributed system </p>
 
@@ -94,3 +94,40 @@ the _Domain Name System_ (DNS) — a distributed, hierarchical, and eventually c
 * DNS can easily become a single point of failure if your DNS name server is down and the clients can’t find the IP address of your service, they won’t have a way to connect it. This can lead to massive outages
 
 ## Chapter 5: APIs
+
+### 5.1 HTTP
+
+In HTTP 1.1, a message is a textual block of data that contains a start line, a set of headers, and an optional body:
+* In a request message, the start line indicates what the request is for, and in a response message, it indicates what the response’s result is.
+* The headers are key-value pairs with meta-information that describe the message.
+* The message’s body is a container for data.
+
+HTTP 2 9 was designed from the ground up to address the main limitations of HTTP 1.1. It uses a binary protocol rather than a textual one, which allows HTTP 2 to multiplex multiple concurrent 
+request-response transactions on the same connection.
+
+### 5.2 Resources
+URLs should be kept simple, even if it means that the client might have to perform multiple requests to get the information it needs.
+
+### 5.3 Request methods
+An idempotent method can  be executed multiple times, and the end result should be the same  as if it was executed just a single time.
+
+### 5.4 Response status codes
+
+Status codes between 200 and 299 are used to communicate success. For example, 200 (OK) means that the request succeeded, and
+the body of the response contains the requested resource.
+
+Status codes between 300 and 399 are used for redirection. For example, 301 (Moved Permanently) means that the requested resource
+has been moved to a different URL, specified in the response message Location header.
+
+Status codes between 400 and 499 are reserved for client errors. A request that fails 
+with a client error will usually continue to return  the same error if it’s retried, as the error is caused by an issue with the client, not the server.
+
+Status codes between 500 and 599 are reserved for server errors. A request that fails with a server error can be retried as the issue that
+caused it to fail might be fixed by the time the retry is processed by the server.
+
+### 5.5 OpenAPI
+The OpenAPI specification, which evolved from the Swagger project, is one of the most popular IDL for RESTful APIs based on HTTP.
+
+### 5.6 Evolution
+
+## Chapter -6
