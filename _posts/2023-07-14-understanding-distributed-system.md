@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Understanding Distributed system by Roberto Vitillo"
+title: "Understanding Distributed system ch:1-5 by Roberto Vitillo"
 date: 2023-07-17 21:03:36 +0530
 categories: distributed-system
 ---
-
-# This post is the summary of the book called `Understanding Distributed system` by Roberto Vitillo.
+This post is the summary of the book called `Understanding Distributed system` by Roberto Vitillo.
 
 ## Chapter 1: Introduction 
 
