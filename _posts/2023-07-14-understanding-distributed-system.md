@@ -128,5 +128,3 @@ caused it to fail might be fixed by the time the retry is processed by the serve
 The OpenAPI specification, which evolved from the Swagger project, is one of the most popular IDL for RESTful APIs based on HTTP.
 
 ### 5.6 Evolution
-
-## Chapter -6
